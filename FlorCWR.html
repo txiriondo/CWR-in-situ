@@ -1139,7 +1139,7 @@ textarea{resize:vertical;min-height:54px}
  * See the GNU AGPL for more details: https://www.gnu.org/licenses/agpl-3.0.html
  * Source code: https://github.com/USER/cwr-insitu
  * ===================================== */
-const LS='florcwr_v1', LS_TAX='florcwr_tax', LS_OBS='florcwr_observer', LS_RES='florcwr_reservas';
+const LS='cwrinsitu_v1', LS_TAX='cwrinsitu_tax', LS_OBS='cwrinsitu_observer', LS_RES='cwrinsitu_reservas';
 let records = load(LS, []);
 let reservas = load(LS_RES, {});         // { nombre: {poligono:[...], acc:[...], updated:ts} }
 let taxa = load(LS_TAX, null);          // null => usar lista semilla
